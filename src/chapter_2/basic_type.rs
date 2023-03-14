@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn basic_concept() {
     let a = 10;
     let b: i32 = 20; 

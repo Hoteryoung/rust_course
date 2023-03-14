@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn if_let_demo() {
     let a = Some(5);
     if let Some(i) = a {

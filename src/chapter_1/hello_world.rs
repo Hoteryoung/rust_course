@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn greet_world() {
     let southern_germany = "Grüß Gott!";
     let chinese = "世界， 你好！";

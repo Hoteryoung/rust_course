@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn string_slice_demo() {
     // let mut s = String::from("hello, world");
     let s = String::from("hello, world");

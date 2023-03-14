@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::{fs, fs::File, io::Read};
 
 fn read_from_file() -> Result<String, std::io::Error> {

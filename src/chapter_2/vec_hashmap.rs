@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn vec_demo() {
     let v: Vec<i32> = Vec::new();
     let a = v.get(0);
@@ -55,4 +56,17 @@ pub fn hashmap_demo() {
     for (k,v) in &teams_map {
         println!("{}: {}", k, v);
     }
+}
+
+pub fn update_hashmap_demo() {
+    let text = "hello world wonderful world";
+    let mut map = HashMap::new();
+    // 根据空格来切分字符串(英文单词都是通过空格切分)
+    for word in text.split_whitespace() {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
+        println!("{}", *count);
+        println!("{}", count);
+    }
+    println!("{:?}", map);
 }

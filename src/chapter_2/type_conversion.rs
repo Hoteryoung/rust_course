@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 pub fn type_cast_demo() {
     let a_0 = 254_i32 as u8;
     let a_1 = 255_i32 as u8;

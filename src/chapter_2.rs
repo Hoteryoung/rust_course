@@ -6,3 +6,4 @@ pub mod ownership_reference;
 pub mod process_control;
 pub mod type_conversion;
 pub mod vec_hashmap;
+pub mod lifetime;
