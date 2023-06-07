@@ -1,0 +1,7 @@
+My name is Hunter
+Attention please: implicit_lifetime
+My name is Hunter
+Attention please: explicit_lifetime
+My name is Hunter
+Attention please: manual_lifetime
+My name is Hunter
