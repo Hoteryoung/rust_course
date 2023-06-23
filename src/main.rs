@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 mod chapter_1;
 mod chapter_2;
 mod chapter_4;
@@ -75,5 +77,7 @@ fn main() {
     // pr_c5_references::reference_demo_4();
     // pr_c5_references::reference_demo_5();
     // chapter_4::cell_and_refcell::interior_mutability_demo();
-    chapter_4::cell_and_refcell::rc_refcell_demo();
+    // chapter_4::cell_and_refcell::rc_refcell_demo();
+    // chapter_4::weak::weak_demo_1_gadget();
+    chapter_4::weak::weak_demo_2_tree();
 }
